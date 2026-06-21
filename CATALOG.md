@@ -2,12 +2,6 @@
 
 Tài liệu này mô tả các thư mục và file quan trọng của AutoFoodBilling. Mục tiêu là giúp người mới vào dự án hiểu nhanh: mỗi thư mục dùng để làm gì, file nào cần quan tâm, file nào chỉ là dữ liệu cục bộ không nên commit.
 
-## Nguyên Tắc Phân Loại File
-
-- **Nên commit:** mã nguồn, cấu hình, tài liệu, annotation mẫu/chính, script chạy, ảnh demo nhỏ phục vụ UI.
-- **Không nên commit:** dataset ảnh thật, output sinh ra khi chạy script/API, model/checkpoint binary, cache, môi trường ảo, file PDF tham khảo nặng.
-- **Có thể giữ cục bộ:** `data/raw/`, `data/generated/`, `data/processed/`, `h5/*.h5`, `ml/models/**/*.h5`, `ml/models/**/*.pt`.
-
 ## Tổng Quan Cây Thư Mục
 
 ```text
