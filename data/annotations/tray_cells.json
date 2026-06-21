@@ -1,0 +1,64 @@
+﻿{
+  "images": [
+    {
+      "file": "data/raw/empty_trays/01458c347bdb07f4f1c1269e26a11011.jpg",
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [32, 78, 226, 246],
+          "label": "empty"
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [246, 76, 446, 242],
+          "label": "empty"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [469, 72, 669, 242],
+          "label": "empty"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [27, 282, 226, 523],
+          "label": "empty"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [244, 258, 676, 530],
+          "label": "empty"
+        }
+      ]
+    },
+    {
+      "file": "data/raw/real_trays_test/screenshot_1781814961.png",
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [47, 44, 208, 165],
+          "label": "Thịt kho"
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [217, 43, 357, 166],
+          "label": "Rau xào"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [383, 44, 531, 168],
+          "label": "Đậu hũ sốt cà"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [39, 174, 251, 349],
+          "label": "Canh chua không cá"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [259, 169, 548, 351],
+          "label": "Cơm trắng"
+        }
+      ]
+    }
+  ]
+}

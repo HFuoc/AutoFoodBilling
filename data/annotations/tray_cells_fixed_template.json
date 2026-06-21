@@ -1,0 +1,4619 @@
+﻿{
+  "images": [
+    {
+      "file": "data/raw/tray_with_food/z7956157872902_79adb408f0afe8cd7159eaac6615f2e0.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            136,
+            152,
+            1191,
+            1052
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.963
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1268,
+            152,
+            1805,
+            837
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8824
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1268,
+            925,
+            1805,
+            1660
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.4251
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            136,
+            1407,
+            1191,
+            2383
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.6596
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1268,
+            1825,
+            1805,
+            2383
+          ],
+          "label": "Sườn nướng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9223
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158085292_d2367a96fe5db7e893444034427cea8d.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            145,
+            197,
+            1195,
+            1089
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8388
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1271,
+            197,
+            1805,
+            876
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9473
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1271,
+            964,
+            1805,
+            1693
+          ],
+          "skip_reason": "low_confidence_or_uncertain",
+          "model_prediction": {
+            "label": "Đậu hũ sốt cà",
+            "confidence": 0.3181
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            145,
+            1441,
+            1195,
+            2409
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7508
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1271,
+            1856,
+            1805,
+            2409
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.7431
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158575245_01d4566e89256e4db270080542e99429.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            192,
+            149,
+            870,
+            726
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.989
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            998,
+            149,
+            1638,
+            726
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9692
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1741,
+            149,
+            2406,
+            726
+          ],
+          "label": "Thịt kho",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.7566
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            154,
+            800,
+            1075,
+            1731
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9272
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1152,
+            800,
+            2406,
+            1731
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.4944
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158578842_95bab4290703810aae70c80f0f296015.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1657,
+            1171,
+            2322,
+            1765
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.7843
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            904,
+            1171,
+            1531,
+            1765
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.578
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            151,
+            1171,
+            803,
+            1765
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8452
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1456,
+            134,
+            2359,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9045
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            151,
+            134,
+            1380,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.8749
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158585982_ba3ad8854bcaab7f3b920f27fe994049.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1665,
+            1171,
+            2334,
+            1766
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.773
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            908,
+            1171,
+            1539,
+            1766
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9196
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            151,
+            1171,
+            807,
+            1766
+          ],
+          "label": "Đậu hũ sốt cà",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7865
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1463,
+            134,
+            2372,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.968
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            151,
+            134,
+            1388,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.4632
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158588506_8071419dc08d913dffb81eff9944d3bf.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            192,
+            154,
+            870,
+            749
+          ],
+          "label": "Trứng chiên",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.9289
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            998,
+            154,
+            1638,
+            749
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "empty",
+            "confidence": 0.2835
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1741,
+            154,
+            2406,
+            749
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.7093
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            154,
+            826,
+            1075,
+            1786
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9629
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1152,
+            826,
+            2406,
+            1786
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.8337
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158605803_59697e9aa007dc42b9d5011c677db295.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            131,
+            245,
+            1163,
+            1074
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9216
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1238,
+            245,
+            1763,
+            875
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9507
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1238,
+            957,
+            1763,
+            1634
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "empty",
+            "confidence": 0.1951
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            131,
+            1400,
+            1163,
+            2299
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.4345
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1238,
+            1785,
+            1763,
+            2299
+          ],
+          "label": "Trứng chiên",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.6305
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158637849_c47f22b359f2724bb69b789cefc4dc53.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1690,
+            1198,
+            2368,
+            1772
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8935
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            922,
+            1198,
+            1562,
+            1772
+          ],
+          "label": "Trứng chiên",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.9394
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            154,
+            1198,
+            819,
+            1772
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8707
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1485,
+            198,
+            2406,
+            1124
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.762
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            154,
+            198,
+            1408,
+            1124
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.5715
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158637850_498a2aa7203426f44e8d3760e9565f7d.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1690,
+            1103,
+            2368,
+            1664
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9247
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            922,
+            1103,
+            1562,
+            1664
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "empty",
+            "confidence": 0.62
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            154,
+            1103,
+            819,
+            1664
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.7991
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1485,
+            127,
+            2406,
+            1031
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9083
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            154,
+            127,
+            1408,
+            1031
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.5705
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158639699_8926893603f89eddc5cb04b5cefdcee5.jpg",
+      "reviewed": false,
+      "annotation_source": "fixed_single_tray_template",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            192,
+            154,
+            870,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            998,
+            154,
+            1638,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1741,
+            154,
+            2406,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            154,
+            826,
+            1075,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1152,
+            826,
+            2406,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        }
+      ],
+      "excluded_from_training": true,
+      "exclude_reason": "not_a_single_clean_tray_for_fixed_template"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158649279_d26c33971cc12f7b802572037422355b.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            192,
+            154,
+            870,
+            749
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7851
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            998,
+            154,
+            1638,
+            749
+          ],
+          "label": "Đậu hũ sốt cà",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.3593
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1741,
+            154,
+            2406,
+            749
+          ],
+          "label": "Sườn nướng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8878
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            154,
+            826,
+            1075,
+            1786
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8609
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1152,
+            826,
+            2406,
+            1786
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.4131
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158668784_3f61a1a4ebd0075134f910f56c53d92a.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            134,
+            154,
+            1190,
+            1062
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9377
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1267,
+            154,
+            1805,
+            845
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7735
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1267,
+            934,
+            1805,
+            1677
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.2366
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            134,
+            1421,
+            1190,
+            2406
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cá hú kho",
+            "confidence": 0.7305
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1267,
+            1843,
+            1805,
+            2406
+          ],
+          "label": "Sườn nướng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8127
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158668902_4dcb0ae5401180425caaf3ce7cb2e7ac.jpg",
+      "reviewed": false,
+      "annotation_source": "fixed_single_tray_template",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            192,
+            154,
+            870,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            998,
+            154,
+            1638,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1741,
+            154,
+            2406,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            154,
+            826,
+            1075,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1152,
+            826,
+            2406,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        }
+      ],
+      "excluded_from_training": true,
+      "exclude_reason": "not_a_single_clean_tray_for_fixed_template"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158693008_4268ce6c65d84fc4db6e896f1d6ed700.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1599,
+            1150,
+            2240,
+            1735
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8651
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            872,
+            1150,
+            1477,
+            1735
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.3772
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            145,
+            1150,
+            775,
+            1735
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.768
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1405,
+            132,
+            2277,
+            1075
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9491
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            145,
+            132,
+            1332,
+            1075
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Đậu hũ sốt cà",
+            "confidence": 0.2338
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158697230_1b4dddfc0a34831f9b0254bb81865b0c.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1464,
+            1786,
+            2352
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8651
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1676,
+            653,
+            2352
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9135
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            863,
+            653,
+            1589
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.3692
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            150,
+            1786,
+            1113
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.3104
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            150,
+            653,
+            701
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.4183
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158701262_53ea2837b62b8377f13b8e4774114166.jpg",
+      "reviewed": false,
+      "annotation_source": "fixed_single_tray_template",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            134,
+            154,
+            1190,
+            1062
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1267,
+            154,
+            1805,
+            845
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1267,
+            934,
+            1805,
+            1677
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            134,
+            1421,
+            1190,
+            2406
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1267,
+            1843,
+            1805,
+            2406
+          ],
+          "skip_reason": "record_excluded"
+        }
+      ],
+      "excluded_from_training": true,
+      "exclude_reason": "not_a_single_clean_tray_for_fixed_template"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158846062_b166e76a761a8961330171b86c8ebd70.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            133,
+            154,
+            1181,
+            1062
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9515
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1257,
+            154,
+            1791,
+            845
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.5225
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1257,
+            934,
+            1791,
+            1677
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.2853
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            133,
+            1421,
+            1181,
+            2406
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.8181
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1257,
+            1843,
+            1791,
+            2406
+          ],
+          "label": "Trứng chiên",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8069
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158858288_7a1b3fb9774299e7e031f57dcdeb0c12.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            767,
+            1414,
+            1790,
+            2272
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8739
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            172,
+            1619,
+            692,
+            2272
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8415
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            172,
+            834,
+            692,
+            1535
+          ],
+          "label": "Trứng chiên",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.7438
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            767,
+            145,
+            1790,
+            1076
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.8968
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            172,
+            145,
+            692,
+            677
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.6334
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158908459_336a7d73e9122473d1ed0f1dbcf9ccc9.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            136,
+            154,
+            1191,
+            1062
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.5165
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1268,
+            154,
+            1805,
+            845
+          ],
+          "label": "Trứng chiên",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.7772
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1268,
+            934,
+            1805,
+            1677
+          ],
+          "skip_reason": "low_confidence_or_uncertain",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.5333
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            136,
+            1421,
+            1191,
+            2406
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7758
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1268,
+            1843,
+            1805,
+            2406
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9398
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158909500_4cf20733f17432862a765fb52f99e692.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            749,
+            1433,
+            1788,
+            2287
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.7306
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            145,
+            1637,
+            674,
+            2287
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9194
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            145,
+            855,
+            674,
+            1553
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8976
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            749,
+            169,
+            1788,
+            1096
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.2673
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            145,
+            169,
+            674,
+            699
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.3313
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158909863_99a122bc1d73b3a04dff98542eabdd26.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            234,
+            180,
+            1182,
+            1079
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.4503
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1251,
+            180,
+            1734,
+            864
+          ],
+          "label": "Trứng chiên",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.8549
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1251,
+            952,
+            1734,
+            1686
+          ],
+          "skip_reason": "low_confidence_or_uncertain",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.2817
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            234,
+            1433,
+            1182,
+            2408
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.4744
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1251,
+            1851,
+            1734,
+            2408
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.3776
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158923635_b991deae6406ef56475a293bf8d9e85f.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            735,
+            1514,
+            1786,
+            2409
+          ],
+          "skip_reason": "low_confidence_or_uncertain",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.4661
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            123,
+            1728,
+            658,
+            2409
+          ],
+          "label": "Rau xào",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9064
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            123,
+            909,
+            658,
+            1640
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Đậu hũ sốt cà",
+            "confidence": 0.1678
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            735,
+            191,
+            1786,
+            1161
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.861
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            123,
+            191,
+            658,
+            746
+          ],
+          "label": "Sườn nướng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9561
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158931920_cdacd5f691a082f538db597d5aef090c.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            160,
+            151,
+            1201,
+            1046
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9693
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1276,
+            151,
+            1806,
+            832
+          ],
+          "label": "Thịt kho trứng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.4643
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1276,
+            920,
+            1806,
+            1651
+          ],
+          "label": "Thịt kho",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.8605
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            160,
+            1399,
+            1201,
+            2370
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.6978
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1276,
+            1815,
+            1806,
+            2370
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9697
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158957638_6a93f4354c89529e1e07eb938eb3a21c.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            134,
+            85,
+            1190,
+            586
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9213
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1267,
+            85,
+            1805,
+            466
+          ],
+          "label": "Sườn nướng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9285
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1267,
+            515,
+            1805,
+            925
+          ],
+          "label": "Sườn nướng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9612
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            134,
+            784,
+            1190,
+            1327
+          ],
+          "skip_reason": "low_confidence_or_uncertain",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.3307
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1267,
+            1017,
+            1805,
+            1327
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.2197
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158965219_d32f8f6481612cc8b60f0e893faf59a0.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            722,
+            1483,
+            1768,
+            2363
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9094
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            114,
+            1694,
+            646,
+            2363
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9207
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            114,
+            888,
+            646,
+            1607
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.8504
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            722,
+            181,
+            1768,
+            1136
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.834
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            114,
+            181,
+            646,
+            726
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.5497
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158968630_af09dcc7809b4a1dc82015a73b847b09.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            737,
+            1434,
+            1786,
+            2305
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9466
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            126,
+            1643,
+            661,
+            2305
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9745
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            126,
+            846,
+            661,
+            1557
+          ],
+          "label": "Thịt kho trứng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.486
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            737,
+            147,
+            1786,
+            1091
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.7499
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            126,
+            147,
+            661,
+            687
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.3537
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158974279_18597e385f6b0245d47c36094357261c.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            725,
+            1507,
+            1775,
+            2408
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.858
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1722,
+            649,
+            2408
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.6435
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            898,
+            649,
+            1634
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.5449
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            725,
+            174,
+            1775,
+            1151
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.2574
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            174,
+            649,
+            733
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.5123
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158974755_ac310f5f981b94c4ae7588173b8de818.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            722,
+            1238,
+            1768,
+            1958
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8322
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            114,
+            1411,
+            646,
+            1958
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.899
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            114,
+            752,
+            646,
+            1340
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.3708
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            722,
+            174,
+            1768,
+            954
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8728
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            114,
+            174,
+            646,
+            620
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9545
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956158986570_a3e0e40e3ae9e5793bc4160df933a632.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1517,
+            1786,
+            2409
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9346
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1730,
+            653,
+            2409
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.3298
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            913,
+            653,
+            1642
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.5101
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            197,
+            1786,
+            1165
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.5525
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            197,
+            653,
+            750
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.584
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159438683_fe1b87a541a0a7d04dbeb556a3a59a3d.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            729,
+            1502,
+            1784,
+            2407
+          ],
+          "label": "Cơm trắng",
+          "label_source": "model_high_confidence",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8424
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1719,
+            652,
+            2407
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9005
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            890,
+            652,
+            1630
+          ],
+          "label": "Đậu hũ sốt cà",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.2693
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            729,
+            164,
+            1784,
+            1145
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9813
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            164,
+            652,
+            725
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.5599
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159445210_b537b5921213dd5ec5cf0a3f64e31699.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1470,
+            1786,
+            2353
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9567
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1682,
+            653,
+            2353
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Cá hú kho",
+            "confidence": 0.4158
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            874,
+            653,
+            1595
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "empty",
+            "confidence": 0.1599
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            165,
+            1786,
+            1122
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.9351
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            165,
+            653,
+            712
+          ],
+          "label": "Trứng chiên",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.5651
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159451177_2270d64e3e88f0dd01b9fca362407d22.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            736,
+            1507,
+            1786,
+            2408
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9238
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            125,
+            1722,
+            659,
+            2408
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9564
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            125,
+            898,
+            659,
+            1634
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cá hú kho",
+            "confidence": 0.4798
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            736,
+            174,
+            1786,
+            1151
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8614
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            125,
+            174,
+            659,
+            733
+          ],
+          "label": "Đậu hũ sốt cà",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.4415
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159451474_94d575f8b25e809540a7120c592a6b35.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1759,
+            1194,
+            2383,
+            1770
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.3989
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            1052,
+            1194,
+            1641,
+            1770
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.5102
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            344,
+            1194,
+            957,
+            1770
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua có cá",
+            "confidence": 0.2961
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1570,
+            189,
+            2419,
+            1119
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9345
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            344,
+            189,
+            1499,
+            1119
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.3641
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159456658_18fc5b83642276d930b0b1f4655ab7e2.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1536,
+            1786,
+            2412
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.865
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1746,
+            653,
+            2412
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7393
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            944,
+            653,
+            1660
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.3124
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            241,
+            1786,
+            1191
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.9117
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            241,
+            653,
+            784
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9178
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159461590_4af32bf08d8ae4e7a290ab11bb26bd53.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            751,
+            1501,
+            1788,
+            2382
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9688
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            147,
+            1712,
+            675,
+            2382
+          ],
+          "label": "Thịt kho trứng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.7362
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            147,
+            905,
+            675,
+            1625
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.3904
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            751,
+            198,
+            1788,
+            1153
+          ],
+          "label": "Canh chua có cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.9473
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            147,
+            198,
+            675,
+            744
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8822
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159475340_31a52c027c7d1ebd4894aa7429f4e6db.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            134,
+            189,
+            1190,
+            1085
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.956
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1267,
+            189,
+            1805,
+            870
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9779
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1267,
+            959,
+            1805,
+            1690
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Cá hú kho",
+            "confidence": 0.4834
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            134,
+            1438,
+            1190,
+            2409
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.5996
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1267,
+            1854,
+            1805,
+            2409
+          ],
+          "label": "Sườn nướng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9748
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159479754_64e606bfd21a6b293594fa60013210fa.jpg",
+      "reviewed": false,
+      "annotation_source": "fixed_single_tray_template",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            192,
+            154,
+            870,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            998,
+            154,
+            1638,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1741,
+            154,
+            2406,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            154,
+            826,
+            1075,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1152,
+            826,
+            2406,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        }
+      ],
+      "excluded_from_training": true,
+      "exclude_reason": "not_a_single_clean_tray_for_fixed_template"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159555290_49ff0abe865aee771dc9dd539c16738d.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1511,
+            1786,
+            2408
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8699
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1726,
+            653,
+            2408
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.7911
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            905,
+            653,
+            1638
+          ],
+          "label": "Trứng chiên",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.7956
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            185,
+            1786,
+            1158
+          ],
+          "label": "Canh chua không cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.2743
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            185,
+            653,
+            741
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8797
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159560973_d57c332ec2a81c830c01cfd109b4781a.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1498,
+            1786,
+            2406
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9037
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1715,
+            653,
+            2406
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Đậu hũ sốt cà",
+            "confidence": 0.468
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            883,
+            653,
+            1626
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.9058
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            154,
+            1786,
+            1139
+          ],
+          "label": "Canh chua không cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.3441
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            154,
+            653,
+            717
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8106
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159571173_c34e0c3dfc614154ac6f91c4a5c0e441.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1498,
+            1786,
+            2406
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8706
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1715,
+            653,
+            2406
+          ],
+          "label": "Sườn nướng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8823
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            883,
+            653,
+            1626
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.263
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            154,
+            1786,
+            1139
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.5912
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            154,
+            653,
+            717
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8631
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159571376_074788fc78a42861384c718a7a3d6087.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            738,
+            782,
+            1787,
+            1256
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.8369
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            128,
+            895,
+            662,
+            1256
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.425
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            128,
+            461,
+            662,
+            848
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9083
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            738,
+            80,
+            1787,
+            595
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.7445
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            128,
+            80,
+            662,
+            374
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.8395
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159579481_720b503613848c4aebbe4758961a4f9b.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1676,
+            1171,
+            2349,
+            1766
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.7175
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            914,
+            1171,
+            1549,
+            1766
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.8317
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            152,
+            1171,
+            812,
+            1766
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8023
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1473,
+            134,
+            2387,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.941
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            152,
+            134,
+            1396,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9362
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159579880_e0f5d98cb68611181831e9e168ebaa6a.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1704,
+            1171,
+            2371,
+            1766
+          ],
+          "label": "Sườn nướng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9541
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            948,
+            1171,
+            1578,
+            1766
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.6299
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            192,
+            1171,
+            847,
+            1766
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.7729
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1502,
+            134,
+            2409,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9357
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            192,
+            134,
+            1426,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7639
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159584914_227b97188096b1d1b7b6c3eeb45ff744.jpg",
+      "reviewed": false,
+      "annotation_source": "fixed_single_tray_template",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            192,
+            154,
+            870,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            998,
+            154,
+            1638,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1741,
+            154,
+            2406,
+            749
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            154,
+            826,
+            1075,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1152,
+            826,
+            2406,
+            1786
+          ],
+          "skip_reason": "record_excluded"
+        }
+      ],
+      "excluded_from_training": true,
+      "exclude_reason": "not_a_single_clean_tray_for_fixed_template"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159586579_e631381199c9cd9f1c36384e3b8e28f2.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1690,
+            1171,
+            2368,
+            1766
+          ],
+          "label": "Thịt kho trứng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho trứng",
+            "confidence": 0.8278
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            922,
+            1171,
+            1562,
+            1766
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "empty",
+            "confidence": 0.6202
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            154,
+            1171,
+            819,
+            1766
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7137
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1485,
+            134,
+            2406,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9121
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            154,
+            134,
+            1408,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.7606
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159591749_0ba28064964cbbda5db31047dfd481b6.jpg",
+      "reviewed": false,
+      "annotation_source": "fixed_single_tray_template",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            134,
+            154,
+            1190,
+            1062
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1267,
+            154,
+            1805,
+            845
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1267,
+            934,
+            1805,
+            1677
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            134,
+            1421,
+            1190,
+            2406
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1267,
+            1843,
+            1805,
+            2406
+          ],
+          "skip_reason": "record_excluded"
+        }
+      ],
+      "excluded_from_training": true,
+      "exclude_reason": "not_a_single_clean_tray_for_fixed_template"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159603642_55416c9d84bd88f02c0370e72fafb068.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            219,
+            184,
+            888,
+            769
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.6542
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            1014,
+            184,
+            1645,
+            769
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.6851
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1746,
+            184,
+            2402,
+            769
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8327
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            181,
+            844,
+            1090,
+            1788
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9316
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1165,
+            844,
+            2402,
+            1788
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.9638
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159604894_c7f9f7a4f9cd60fec273e92ab74491e3.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1710,
+            1171,
+            2360,
+            1766
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.6168
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            974,
+            1171,
+            1587,
+            1766
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.6575
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            238,
+            1171,
+            876,
+            1766
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.2846
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1514,
+            134,
+            2397,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9126
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            238,
+            134,
+            1440,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7589
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159610086_187c3af48f0c793ffd1690835c37e0d5.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1710,
+            1171,
+            2360,
+            1766
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.6168
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            974,
+            1171,
+            1587,
+            1766
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.6575
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            238,
+            1171,
+            876,
+            1766
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.2846
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1514,
+            134,
+            2397,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9126
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            238,
+            134,
+            1440,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7589
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159619931_1fbcacecce8cb26f1830aacf3538d815.jpg",
+      "reviewed": false,
+      "annotation_source": "fixed_single_tray_template",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            134,
+            154,
+            1190,
+            1062
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1267,
+            154,
+            1805,
+            845
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1267,
+            934,
+            1805,
+            1677
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            134,
+            1421,
+            1190,
+            2406
+          ],
+          "skip_reason": "record_excluded"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1267,
+            1843,
+            1805,
+            2406
+          ],
+          "skip_reason": "record_excluded"
+        }
+      ],
+      "excluded_from_training": true,
+      "exclude_reason": "not_a_single_clean_tray_for_fixed_template"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159684631_e12a90df401b4daf3b2c8c4c7bbe92a6.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            219,
+            184,
+            888,
+            769
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.6542
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            1014,
+            184,
+            1645,
+            769
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.6851
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1746,
+            184,
+            2402,
+            769
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.8327
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            181,
+            844,
+            1090,
+            1788
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9316
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1165,
+            844,
+            2402,
+            1788
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.9638
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159684729_2bf62dab6073ffdf737eac8638492a32.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            134,
+            154,
+            1190,
+            1062
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9295
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            1267,
+            154,
+            1805,
+            845
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9124
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            1267,
+            934,
+            1805,
+            1677
+          ],
+          "label": "Trứng chiên",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Trứng chiên",
+            "confidence": 0.8295
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            134,
+            1421,
+            1190,
+            2406
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.3396
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            1267,
+            1843,
+            1805,
+            2406
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.5384
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "base",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159685800_039e350db391154c224deafaf0da6390.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            730,
+            1498,
+            1786,
+            2406
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.8152
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            115,
+            1715,
+            653,
+            2406
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9378
+          }
+        },
+        {
+          "cell_id": "middle_right",
+          "box": [
+            115,
+            883,
+            653,
+            1626
+          ],
+          "skip_reason": "outside_configured_classes_or_uncertain",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.3285
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            730,
+            154,
+            1786,
+            1139
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh rau",
+            "confidence": 0.8726
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            115,
+            154,
+            653,
+            717
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cá hú kho",
+            "confidence": 0.525
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "portrait"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159690653_8bef0032dddc95fc07849fb204076190.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1690,
+            1171,
+            2368,
+            1766
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.9637
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            922,
+            1171,
+            1562,
+            1766
+          ],
+          "label": "empty",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "empty",
+            "confidence": 0.3018
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            154,
+            1171,
+            819,
+            1766
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9122
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1485,
+            134,
+            2406,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9232
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            154,
+            134,
+            1408,
+            1094
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.5219
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159691814_82e8eb9a5f40ad77b01315f4633c9b5a.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            1683,
+            1171,
+            2359,
+            1766
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.2721
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            918,
+            1171,
+            1556,
+            1766
+          ],
+          "label": "Cá hú kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua có cá",
+            "confidence": 0.3131
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            153,
+            1171,
+            816,
+            1766
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7696
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            1479,
+            134,
+            2397,
+            1094
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Cơm trắng",
+            "confidence": 0.9116
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            153,
+            134,
+            1402,
+            1094
+          ],
+          "label": "Canh chua không cá",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Canh chua không cá",
+            "confidence": 0.3155
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    },
+    {
+      "file": "data/raw/tray_with_food/z7956159693217_409b38d57d7ce989e774954a0983c315.jpg",
+      "reviewed": true,
+      "annotation_source": "fixed_single_tray_template_oriented_model_assisted_review",
+      "needs_label_review": true,
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            884,
+            1166,
+            1221,
+            1759
+          ],
+          "label": "Rau xào",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.9065
+          }
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            502,
+            1166,
+            820,
+            1759
+          ],
+          "label": "Sườn nướng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Thịt kho",
+            "confidence": 0.5357
+          }
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            119,
+            1166,
+            451,
+            1759
+          ],
+          "label": "Thịt kho",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Sườn nướng",
+            "confidence": 0.7243
+          }
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            782,
+            134,
+            1241,
+            1090
+          ],
+          "label": "Cơm trắng",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.7296
+          }
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            119,
+            134,
+            744,
+            1090
+          ],
+          "label": "Canh rau",
+          "label_source": "manual_visual_review",
+          "model_prediction": {
+            "label": "Rau xào",
+            "confidence": 0.5504
+          }
+        }
+      ],
+      "excluded_from_training": false,
+      "orientation": "r180",
+      "orientation_aspect": "landscape"
+    }
+  ]
+}

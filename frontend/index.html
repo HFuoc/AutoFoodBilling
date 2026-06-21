@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TrayAI</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#app" aria-label="TrayAI">TrayAI</a>
+      <nav class="nav-links" aria-label="Điều hướng chính">
+        <a href="#app">Nhận diện</a>
+        <a href="#results">Kết quả</a>
+        <a href="#pricing">Bảng giá</a>
+      </nav>
+      <div class="header-tools">
+        <button id="demoBtn" class="pill dark" type="button">Dùng ảnh demo</button>
+        <select id="cameraSelect" class="camera-select" aria-label="Chọn camera" hidden disabled>
+          <option value="">Camera mặc định</option>
+        </select>
+        <button id="cameraBtn" class="pill dark" type="button">Mở camera</button>
+        <button id="captureBtn" class="pill outline" type="button">Chụp ảnh</button>
+        <label class="pill outline file-button">
+          Chọn ảnh
+          <input id="fileInput" type="file" accept="image/*" />
+        </label>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="app">
+        <div class="hero-copy">
+          <p class="eyebrow">TrayAI Vision</p>
+          <h1>Nhận diện khay ăn trong vài giây.</h1>
+        </div>
+        <div class="hero-actions">
+          <button class="pill dark" type="button" data-action="demo">Thử demo</button>
+          <label class="pill light file-button">
+            Tải ảnh lên
+            <input id="heroFileInput" type="file" accept="image/*" />
+          </label>
+        </div>
+      </section>
+
+      <section class="workspace">
+        <section class="image-panel" aria-label="Ảnh khay và vùng nhận diện">
+          <div id="imageStage" class="image-stage empty">
+            <p>Chọn ảnh hoặc dùng ảnh demo để bắt đầu.</p>
+          </div>
+          <canvas id="captureCanvas" hidden></canvas>
+        </section>
+
+        <aside class="result-panel" id="results" aria-label="Kết quả tính tiền">
+          <div class="status-row">
+            <span id="statusDot" class="status-dot idle"></span>
+            <span id="statusText">Sẵn sàng</span>
+          </div>
+
+          <div class="total-box">
+            <span>Tổng tiền</span>
+            <strong id="totalValue">0 VND</strong>
+          </div>
+
+          <section class="checkout-card" aria-label="Thanh toán">
+            <div class="voucher-row">
+              <label for="voucherInput">Mã khuyến mãi</label>
+              <div class="voucher-control">
+                <input id="voucherInput" type="text" placeholder="Nhập Voucher hoặc Gift Code" />
+                <button id="voucherBtn" class="small-dark-btn" type="button">Áp dụng</button>
+              </div>
+            </div>
+
+            <h2>Bản tóm tắt</h2>
+            <dl class="summary-list">
+              <div>
+                <dt>Tổng giá trước thuế</dt>
+                <dd id="subtotalValue">0 VND</dd>
+              </div>
+              <div>
+                <dt>Thuế GTGT</dt>
+                <dd id="taxValue">0 VND</dd>
+              </div>
+              <div>
+                <dt>Tổng số tiền tiết kiệm</dt>
+                <dd>0 VND</dd>
+              </div>
+            </dl>
+            <div class="checkout-total">
+              <span>Tổng cộng</span>
+              <strong id="checkoutTotalValue">0 VND</strong>
+            </div>
+            <p class="tax-note">Đã bao gồm thuế GTGT</p>
+            <button id="checkoutBtn" class="checkout-btn" type="button" disabled>Thanh toán</button>
+          </section>
+
+          <section class="result-section">
+            <h2>Món đã tính</h2>
+            <ul id="billList" class="bill-list"></ul>
+          </section>
+
+          <section class="result-section">
+            <h2>Ô nhận diện</h2>
+            <ul id="cellList" class="cell-list"></ul>
+          </section>
+        </aside>
+      </section>
+
+      <section class="pricing-section" id="pricing">
+        <div class="section-heading">
+          <p class="eyebrow">Tham chiếu</p>
+          <h2>Bảng giá món ăn</h2>
+        </div>
+        <div id="priceGrid" class="price-grid"></div>
+      </section>
+    </main>
+
+    <div id="paymentModal" class="payment-modal" role="dialog" aria-modal="true" aria-labelledby="paymentTitle" hidden>
+      <div class="payment-sheet">
+        <button id="closePaymentBtn" class="modal-close" type="button" aria-label="Đóng">×</button>
+        <div class="payment-layout">
+          <section class="payment-main">
+            <p class="eyebrow">Checkout</p>
+            <h2 id="paymentTitle">Chọn hình thức thanh toán</h2>
+            <div id="paymentMethods" class="payment-methods" role="radiogroup" aria-label="Hình thức thanh toán"></div>
+            <div id="paymentHint" class="payment-hint"></div>
+          </section>
+
+          <aside class="receipt-card" aria-label="Bill thanh toán">
+            <div class="receipt-head">
+              <span>TrayAI</span>
+              <strong>Bill thanh toán</strong>
+            </div>
+            <ul id="receiptItems" class="receipt-items"></ul>
+            <dl class="receipt-summary">
+              <div>
+                <dt>Tạm tính</dt>
+                <dd id="receiptSubtotal">0 VND</dd>
+              </div>
+              <div>
+                <dt>Thuế GTGT</dt>
+                <dd id="receiptTax">0 VND</dd>
+              </div>
+              <div class="receipt-grand">
+                <dt>Tổng cộng</dt>
+                <dd id="receiptTotal">0 VND</dd>
+              </div>
+            </dl>
+            <button id="confirmPaymentBtn" class="checkout-btn" type="button">Xác nhận thanh toán</button>
+          </aside>
+        </div>
+      </div>
+    </div>
+
+    <script src="./src/app.js?v=dual-camera-modes-1"></script>
+  </body>
+</html>

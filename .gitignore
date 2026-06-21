@@ -1,0 +1,34 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+*.log
+frontend-*.png
+
+# Runtime/generated data
+data/generated/
+data/processed/
+data/raw/**
+!data/raw/
+!data/raw/**/
+!data/raw/**/.gitkeep
+
+# Local model/checkpoint artifacts
+h5/*.h5
+ml/models/**/*.h5
+ml/models/**/*.pt
+ml/models/**/*.onnx
+ml/models/**/*.pth
+ml/models/yolo/runs/
+
+# Large local reference files
+*.pdf
+
+frontend/node_modules/
+frontend/dist/
+
+.agents/

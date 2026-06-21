@@ -1,0 +1,49 @@
+﻿{
+  "currency": "VND",
+  "items": {
+    "Cơm trắng": {
+      "price": 10000,
+      "note": "Một giá tiền nhiều hay ít"
+    },
+    "Đậu hũ sốt cà": {
+      "price": 25000,
+      "note": ""
+    },
+    "Cá hú kho": {
+      "price": 30000,
+      "note": ""
+    },
+    "Thịt kho trứng": {
+      "price": 30000,
+      "note": "Một trứng, thêm 1 trứng + 6.000 đồng"
+    },
+    "Thịt kho": {
+      "price": 25000,
+      "note": "Không có trứng"
+    },
+    "Canh chua có cá": {
+      "price": 25000,
+      "note": ""
+    },
+    "Canh chua không cá": {
+      "price": 10000,
+      "note": ""
+    },
+    "Sườn nướng": {
+      "price": 30000,
+      "note": ""
+    },
+    "Canh rau": {
+      "price": 7000,
+      "note": "Cải hay muống"
+    },
+    "Rau xào": {
+      "price": 10000,
+      "note": "Lagim/củ sắn/đậu que/đậu đũa"
+    },
+    "Trứng chiên": {
+      "price": 25000,
+      "note": "Trứng chiên thịt"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+project_root: .
+
+data:
+  food_classes: data/raw/food_classes
+  empty_trays: data/raw/empty_trays
+  real_trays_test: data/raw/real_trays_test
+  detector_synthetic: data/generated/detector_synthetic
+  crops: data/generated/crops
+  processed: data/processed
+
+models:
+  cnn: h5/food_model.h5
+  detector: ml/models/detector/best.pt
+
+configs:
+  classes: configs/classes.json
+  menu: configs/menu.json

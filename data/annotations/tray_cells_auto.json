@@ -1,0 +1,1535 @@
+﻿{
+  "images": [
+    {
+      "file": "data/raw/empty_trays/01458c347bdb07f4f1c1269e26a11011.jpg",
+      "cells": [
+        {
+          "cell_id": "top_left",
+          "box": [
+            32,
+            78,
+            226,
+            246
+          ],
+          "label": "empty"
+        },
+        {
+          "cell_id": "top_middle",
+          "box": [
+            246,
+            76,
+            446,
+            242
+          ],
+          "label": "empty"
+        },
+        {
+          "cell_id": "top_right",
+          "box": [
+            469,
+            72,
+            669,
+            242
+          ],
+          "label": "empty"
+        },
+        {
+          "cell_id": "bottom_left",
+          "box": [
+            27,
+            282,
+            226,
+            523
+          ],
+          "label": "empty"
+        },
+        {
+          "cell_id": "bottom_right",
+          "box": [
+            244,
+            258,
+            676,
+            530
+          ],
+          "label": "empty"
+        }
+      ],
+      "reviewed": true,
+      "annotation_source": "existing"
+    },
+    {
+      "file": "data/raw/empty_trays/21200352ac7d47701186e48a024fe087.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            72,
+            50,
+            169,
+            116
+          ],
+          "label": "empty",
+          "confidence": 0.9409
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            176,
+            52,
+            253,
+            117
+          ],
+          "label": "empty",
+          "confidence": 0.9933
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            262,
+            48,
+            363,
+            118
+          ],
+          "label": "empty",
+          "confidence": 0.4944
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            77,
+            127,
+            195,
+            248
+          ],
+          "label": "empty",
+          "confidence": 0.9377
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            205,
+            125,
+            359,
+            263
+          ],
+          "label": "empty",
+          "confidence": 0.829
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/45f4706d166195a14372901a95440905.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": []
+    },
+    {
+      "file": "data/raw/empty_trays/46aeeb21dcfbfa1492233df45bbd5f16.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            401,
+            49,
+            615,
+            234
+          ],
+          "label": "empty",
+          "confidence": 0.8633
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            642,
+            12,
+            948,
+            236
+          ],
+          "label": "empty",
+          "confidence": 0.8492
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            25,
+            250,
+            378,
+            592
+          ],
+          "label": "empty",
+          "confidence": 0.6885
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            387,
+            253,
+            942,
+            590
+          ],
+          "label": "empty",
+          "confidence": 0.7677
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/4a00ef03e00fcd2a7615811e65c056f6.webp",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            28,
+            128,
+            184,
+            231
+          ],
+          "label": "empty",
+          "confidence": 0.8926
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            200,
+            127,
+            323,
+            229
+          ],
+          "label": "empty",
+          "confidence": 0.9308
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            333,
+            122,
+            479,
+            228
+          ],
+          "label": "empty",
+          "confidence": 0.9011
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            53,
+            237,
+            241,
+            413
+          ],
+          "label": "empty",
+          "confidence": 0.9563
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            254,
+            237,
+            459,
+            412
+          ],
+          "label": "empty",
+          "confidence": 0.9609
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/554938fddce5f28b1933668198db45de.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": []
+    },
+    {
+      "file": "data/raw/empty_trays/5f87ec532727fb1ebd155b1230447158.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": []
+    },
+    {
+      "file": "data/raw/empty_trays/8160e67c1c5996dff3fb441c4f3ca978.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            41,
+            142,
+            215,
+            344
+          ],
+          "label": "empty",
+          "confidence": 0.9858
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            245,
+            149,
+            468,
+            346
+          ],
+          "label": "empty",
+          "confidence": 0.9562
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            496,
+            141,
+            671,
+            345
+          ],
+          "label": "empty",
+          "confidence": 0.9817
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            38,
+            361,
+            283,
+            578
+          ],
+          "label": "empty",
+          "confidence": 0.923
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            311,
+            357,
+            690,
+            578
+          ],
+          "label": "empty",
+          "confidence": 0.9893
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/8630092548f4e53b30d9a6f74327b66a.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            33,
+            67,
+            185,
+            209
+          ],
+          "label": "empty",
+          "confidence": 0.9519
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            199,
+            64,
+            355,
+            269
+          ],
+          "label": "empty",
+          "confidence": 0.9784
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            369,
+            65,
+            481,
+            269
+          ],
+          "label": "empty",
+          "confidence": 0.9653
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            509,
+            60,
+            631,
+            231
+          ],
+          "label": "empty",
+          "confidence": 0.5117
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            34,
+            224,
+            191,
+            318
+          ],
+          "label": "empty",
+          "confidence": 0.9
+        },
+        {
+          "cell_id": "cell_06",
+          "box": [
+            30,
+            338,
+            187,
+            490
+          ],
+          "label": "empty",
+          "confidence": 0.9712
+        },
+        {
+          "cell_id": "cell_07",
+          "box": [
+            194,
+            275,
+            477,
+            494
+          ],
+          "label": "empty",
+          "confidence": 0.9784
+        },
+        {
+          "cell_id": "cell_08",
+          "box": [
+            491,
+            257,
+            590,
+            494
+          ],
+          "label": "empty",
+          "confidence": 0.5794
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/89069ec5e5f4ab90b119a0caaeda199d.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            139,
+            19,
+            389,
+            182
+          ],
+          "label": "empty",
+          "confidence": 0.9679
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            411,
+            20,
+            623,
+            197
+          ],
+          "label": "empty",
+          "confidence": 0.9761
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            132,
+            204,
+            378,
+            454
+          ],
+          "label": "empty",
+          "confidence": 0.3967
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            424,
+            226,
+            593,
+            385
+          ],
+          "label": "empty",
+          "confidence": 0.9341
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            57,
+            357,
+            328,
+            647
+          ],
+          "label": "empty",
+          "confidence": 0.2505
+        },
+        {
+          "cell_id": "cell_06",
+          "box": [
+            400,
+            414,
+            639,
+            679
+          ],
+          "label": "empty",
+          "confidence": 0.9601
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/8d854bb213d30c48f84c27504f7311ba.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            0,
+            470,
+            277,
+            700
+          ],
+          "label": "empty",
+          "confidence": 0.2947
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/b4d415b43560b06dec5e12f0781e20f9.webp",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            100,
+            61,
+            404,
+            355
+          ],
+          "label": "empty",
+          "confidence": 0.9738
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            439,
+            60,
+            750,
+            342
+          ],
+          "label": "empty",
+          "confidence": 0.9312
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            776,
+            68,
+            1090,
+            363
+          ],
+          "label": "empty",
+          "confidence": 0.9504
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            93,
+            394,
+            440,
+            870
+          ],
+          "label": "empty",
+          "confidence": 0.9666
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            628,
+            390,
+            1109,
+            849
+          ],
+          "label": "empty",
+          "confidence": 0.8658
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/b8cee2e435dba902407e4f25774097f3.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            43,
+            112,
+            216,
+            279
+          ],
+          "label": "empty",
+          "confidence": 0.9693
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            238,
+            120,
+            412,
+            339
+          ],
+          "label": "empty",
+          "confidence": 0.9686
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            425,
+            118,
+            539,
+            343
+          ],
+          "label": "empty",
+          "confidence": 0.9022
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            48,
+            296,
+            212,
+            398
+          ],
+          "label": "empty",
+          "confidence": 0.8773
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            39,
+            416,
+            214,
+            583
+          ],
+          "label": "empty",
+          "confidence": 0.9724
+        },
+        {
+          "cell_id": "cell_06",
+          "box": [
+            232,
+            352,
+            555,
+            587
+          ],
+          "label": "empty",
+          "confidence": 0.9867
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/c196426dc32553cb6b296f1e1e3482f3.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            0,
+            0,
+            552,
+            193
+          ],
+          "label": "empty",
+          "confidence": 0.2775
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            138,
+            220,
+            392,
+            430
+          ],
+          "label": "empty",
+          "confidence": 0.9638
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            411,
+            208,
+            709,
+            437
+          ],
+          "label": "empty",
+          "confidence": 0.836
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            60,
+            448,
+            682,
+            795
+          ],
+          "label": "empty",
+          "confidence": 0.8601
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/download (1).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            64,
+            0,
+            1110,
+            691
+          ],
+          "label": "empty",
+          "confidence": 0.3808
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            59,
+            658,
+            1085,
+            1045
+          ],
+          "label": "empty",
+          "confidence": 0.8879
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            65,
+            675,
+            306,
+            1056
+          ],
+          "label": "empty",
+          "confidence": 0.6415
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            52,
+            1063,
+            1063,
+            1456
+          ],
+          "label": "empty",
+          "confidence": 0.8863
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            673,
+            1048,
+            1100,
+            1462
+          ],
+          "label": "empty",
+          "confidence": 0.5575
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/download (11).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            174,
+            712,
+            477,
+            998
+          ],
+          "label": "empty",
+          "confidence": 0.9565
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            507,
+            708,
+            988,
+            1007
+          ],
+          "label": "empty",
+          "confidence": 0.5744
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            143,
+            1036,
+            483,
+            1320
+          ],
+          "label": "empty",
+          "confidence": 0.9529
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            508,
+            1039,
+            978,
+            1328
+          ],
+          "label": "empty",
+          "confidence": 0.862
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            42,
+            1347,
+            1115,
+            2046
+          ],
+          "label": "empty",
+          "confidence": 0.3236
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/download (2).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            46,
+            646,
+            330,
+            998
+          ],
+          "label": "empty",
+          "confidence": 0.9943
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            372,
+            658,
+            765,
+            1003
+          ],
+          "label": "empty",
+          "confidence": 0.9484
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            819,
+            656,
+            1106,
+            997
+          ],
+          "label": "empty",
+          "confidence": 0.9888
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            49,
+            1038,
+            448,
+            1399
+          ],
+          "label": "empty",
+          "confidence": 0.6257
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            491,
+            1027,
+            1111,
+            1397
+          ],
+          "label": "empty",
+          "confidence": 0.9868
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/download (3).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            266,
+            795,
+            436,
+            1002
+          ],
+          "label": "empty",
+          "confidence": 0.9187
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            457,
+            808,
+            691,
+            1003
+          ],
+          "label": "empty",
+          "confidence": 0.9411
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            714,
+            792,
+            882,
+            1004
+          ],
+          "label": "empty",
+          "confidence": 0.6935
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            263,
+            1024,
+            492,
+            1237
+          ],
+          "label": "empty",
+          "confidence": 0.907
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            526,
+            1024,
+            885,
+            1238
+          ],
+          "label": "empty",
+          "confidence": 0.9433
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/download (4).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            76,
+            325,
+            506,
+            776
+          ],
+          "label": "empty",
+          "confidence": 0.9474
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            93,
+            819,
+            463,
+            1156
+          ],
+          "label": "empty",
+          "confidence": 0.997
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            552,
+            450,
+            1098,
+            1240
+          ],
+          "label": "empty",
+          "confidence": 0.3532
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            64,
+            1217,
+            500,
+            1697
+          ],
+          "label": "empty",
+          "confidence": 0.9821
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            546,
+            1265,
+            1104,
+            1722
+          ],
+          "label": "empty",
+          "confidence": 0.9626
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/download.png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            98,
+            722,
+            358,
+            1032
+          ],
+          "label": "empty",
+          "confidence": 0.971
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            399,
+            746,
+            747,
+            1038
+          ],
+          "label": "empty",
+          "confidence": 0.964
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            787,
+            735,
+            1060,
+            1036
+          ],
+          "label": "empty",
+          "confidence": 0.9823
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            64,
+            1065,
+            430,
+            1390
+          ],
+          "label": "empty",
+          "confidence": 0.9222
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            495,
+            1062,
+            1075,
+            1393
+          ],
+          "label": "empty",
+          "confidence": 0.9799
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/e50e1500c30d75d1db103881f2bf8dad.webp",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            32,
+            107,
+            150,
+            217
+          ],
+          "label": "empty",
+          "confidence": 0.5958
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            67,
+            103,
+            329,
+            213
+          ],
+          "label": "empty",
+          "confidence": 0.6308
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            340,
+            107,
+            474,
+            214
+          ],
+          "label": "empty",
+          "confidence": 0.5332
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            15,
+            226,
+            251,
+            394
+          ],
+          "label": "empty",
+          "confidence": 0.968
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            270,
+            223,
+            478,
+            401
+          ],
+          "label": "empty",
+          "confidence": 0.9033
+        }
+      ]
+    },
+    {
+      "file": "data/raw/empty_trays/f8c297a5edd5b91200a5fec1af5caf71.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": []
+    },
+    {
+      "file": "data/raw/tray_with_food/72ae71ce1dfd15396445303dfa0d937b.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            100,
+            206,
+            374,
+            423
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9387
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            384,
+            201,
+            668,
+            423
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.8681
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            54,
+            429,
+            673,
+            806
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.3388
+        }
+      ]
+    },
+    {
+      "file": "data/raw/tray_with_food/9e3cde9030e5a55260a73d36c2568a90.jpg",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            447,
+            96,
+            659,
+            280
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9279
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            2,
+            185,
+            405,
+            488
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.2954
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            423,
+            296,
+            665,
+            477
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.8929
+        }
+      ]
+    },
+    {
+      "file": "data/raw/tray_with_food/download (5).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            52,
+            603,
+            384,
+            920
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9924
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            422,
+            611,
+            735,
+            931
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.996
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            769,
+            608,
+            1102,
+            922
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9919
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            58,
+            966,
+            454,
+            1427
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9861
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            586,
+            941,
+            1124,
+            1445
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9658
+        }
+      ]
+    },
+    {
+      "file": "data/raw/tray_with_food/download (6).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            134,
+            708,
+            376,
+            999
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9751
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            406,
+            720,
+            747,
+            1001
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9894
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            795,
+            706,
+            1026,
+            996
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9551
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            94,
+            1028,
+            463,
+            1329
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9831
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            509,
+            1024,
+            1045,
+            1330
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9607
+        }
+      ]
+    },
+    {
+      "file": "data/raw/tray_with_food/download (7).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            130,
+            627,
+            406,
+            863
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9415
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            429,
+            625,
+            652,
+            858
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.8673
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            685,
+            613,
+            981,
+            848
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.4316
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            128,
+            895,
+            529,
+            1252
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.8452
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            569,
+            881,
+            987,
+            1233
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9599
+        }
+      ]
+    },
+    {
+      "file": "data/raw/tray_with_food/download (8).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            73,
+            646,
+            651,
+            1004
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.8791
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            711,
+            634,
+            1084,
+            993
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9996
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            65,
+            1045,
+            343,
+            1407
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9861
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            389,
+            1047,
+            773,
+            1405
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9915
+        },
+        {
+          "cell_id": "cell_05",
+          "box": [
+            816,
+            1041,
+            1105,
+            1405
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9979
+        }
+      ]
+    },
+    {
+      "file": "data/raw/tray_with_food/download (9).png",
+      "reviewed": false,
+      "annotation_source": "detector_suggestion",
+      "needs_review": true,
+      "cells": [
+        {
+          "cell_id": "cell_01",
+          "box": [
+            62,
+            272,
+            648,
+            942
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9814
+        },
+        {
+          "cell_id": "cell_02",
+          "box": [
+            686,
+            271,
+            1111,
+            823
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.8692
+        },
+        {
+          "cell_id": "cell_03",
+          "box": [
+            705,
+            802,
+            1037,
+            1208
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.776
+        },
+        {
+          "cell_id": "cell_04",
+          "box": [
+            44,
+            994,
+            743,
+            1719
+          ],
+          "label": "tray_with_food",
+          "confidence": 0.9565
+        }
+      ]
+    }
+  ]
+}
