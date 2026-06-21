@@ -242,7 +242,7 @@ powershell -ExecutionPolicy Bypass -File scripts\train_cell_cnn_and_demo.ps1
 - [docs/manual_tray_cell_training_checklist.md](docs/manual_tray_cell_training_checklist.md): checklist train và kiểm tra.
 - [docs/project_structure_design.md](docs/project_structure_design.md): ghi chú thiết kế cấu trúc dự án.
 
-## Ghi Chú Vận Hành
+## Ghi Chú 
 
 - Frontend mặc định gọi API `/predict-cells`.
 - `run_project.ps1` chạy backend ở port `8001`, còn ví dụ chạy riêng backend ở port `8000`.
@@ -252,19 +252,3 @@ powershell -ExecutionPolicy Bypass -File scripts\train_cell_cnn_and_demo.ps1
 ```powershell
 $env:PYTHONIOENCODING='utf-8'
 ```
-
-## Kiểm Tra Trước Khi Push
-
-Trước khi commit/push, nên chạy:
-
-```powershell
-git status --short
-git ls-files data/raw
-git ls-files "*.h5" "*.pt" "*.onnx"
-```
-
-Kết quả mong muốn:
-
-- `data/raw` chỉ còn các file giữ chỗ như `.gitkeep` nếu cần.
-- Không có checkpoint/model binary lớn trong danh sách tracked file.
-- README và CATALOG đã trỏ đúng tên file, đúng port và đúng workflow hiện tại.
