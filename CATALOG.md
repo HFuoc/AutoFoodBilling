@@ -219,10 +219,3 @@ git ls-files data/raw
 git ls-files "*.h5" "*.pt" "*.onnx"
 git ls-files | Select-String "__pycache__|data/generated|data/processed|\\.venv"
 ```
-
-Kỳ vọng:
-
-- `data/raw` chỉ còn `.gitkeep` hoặc không có file ảnh.
-- Không còn model/checkpoint binary trong Git.
-- Không còn cache/runtime output.
-- `README.md` trỏ tới `CATALOG.md` đúng chữ hoa.
